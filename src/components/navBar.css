@@ -1,0 +1,9 @@
+.check{
+    /* background-color: aqua; */
+    color: blanchedalmond;
+    user-select: none;
+}
+
+.yui{
+    cursor: pointer;
+}

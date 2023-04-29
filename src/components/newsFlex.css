@@ -1,0 +1,25 @@
+.news{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 75px;
+    /* background-color: black; */
+}
+
+.card{
+    margin-right: 10px;
+    margin-top: 10px;
+    width: max-content;
+}
+
+.nesFlex{
+    padding: 60px;
+    background-color: black;
+}
+
+.desFlex{
+    padding: 60px;
+    background-color:wheat;
+}
