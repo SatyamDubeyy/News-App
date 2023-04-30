@@ -64,12 +64,12 @@ function NavBar({ title, navv,fun}) {
                                 navv.map((element,i,arr) => {
                                     if (element === "Home") {
                                         return (<li className="nav-item" key={i}>
-                                            <a className="nav-link" href="/" >{element}</a>
+                                            <a className="nav-link" href="/News-App/" >{element}</a>
                                             {/* <Link to="/" className="nav-link" >{element}</Link> */}
                                         </li>)
                                     }
                                     return (<li className="nav-item" key={i}>
-                                        <a className="nav-link" href={`/${element}`}>{element}</a>
+                                        <a className="nav-link" href={`/News-App/${element}`}>{element}</a>
                                         {/* <Link to={`/${element}`} className="nav-link" >{element}</Link> */}
                                     </li>)
                                 })
